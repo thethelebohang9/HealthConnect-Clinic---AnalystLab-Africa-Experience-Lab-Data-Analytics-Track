@@ -17,3 +17,18 @@ HealthConnect therefore needs to understand:
 - Whether factors such as distance and waiting time may be associated with attendance patterns.
 
 The goal is not to diagnose patients or make clinical decisions, but to analyse appointment and operational data to support better administrative decision-making.
+
+
+## Project Objectives
+
+The Week 4 project objectives were to:
+
+- Understand the HealthConnect business problem.
+- Understand the available appointment dataset.
+- Review the dataset structure and Data Dictionary.
+- Identify variables relevant to appointment attendance and no-shows.
+- Define meaningful business questions.
+- Identify potential business KPIs.
+- Establish the initial analytical approach.
+- Identify project limitations, risks and dependencies.
+- Establish a foundation for the detailed analysis to follow.
