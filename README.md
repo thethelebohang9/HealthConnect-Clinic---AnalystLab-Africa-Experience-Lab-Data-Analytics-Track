@@ -32,3 +32,18 @@ The Week 4 project objectives were to:
 - Establish the initial analytical approach.
 - Identify project limitations, risks and dependencies.
 - Establish a foundation for the detailed analysis to follow.
+
+
+## Dataset Overview
+
+The HealthConnect appointment dataset contains:
+
+- 5,000 appointment records
+- 18 variables
+- Appointment-level data
+- Anonymised patient identifiers
+- Adult patient records
+- Appointment booking and scheduling information
+- Reminder information
+- Operational information
+- Final appointment outcomes
