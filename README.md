@@ -74,3 +74,20 @@ The dataset and analysis are focused on administrative and operational appointme
 - Make clinical decisions.
 - Assume that demographic characteristics cause a patient's behaviour.
 - Invent clinic policies, prices or appointment availability.
+
+ ## Business Questions
+
+The initial analysis will investigate the following business questions:
+
+- What proportion of HealthConnect appointments are attended, missed or cancelled?
+- Which appointment types have the highest no-show rates?
+- Are no-show rates different across age groups?
+- Does booking lead time appear to be associated with appointment attendance?
+- Are patients with previous no-shows more likely to miss future appointments?
+- Is appointment timing associated with different attendance patterns?
+- Is there an observable relationship between reminders and appointment attendance?
+- Do different reminder channels show different appointment outcomes?
+- Is distance from the clinic associated with appointment attendance?
+- Is estimated waiting time associated with appointment outcomes?
+
+These questions will guide the detailed analysis in the next stage of the project.
