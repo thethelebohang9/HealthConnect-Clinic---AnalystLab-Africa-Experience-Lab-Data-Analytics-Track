@@ -12,8 +12,8 @@ HealthConnect therefore needs to understand:
 - How frequently appointments are attended, missed or cancelled. 
 - Which patient and appointment characteristics may be associated with no-shows.
 - Whether booking lead time is related to attendance.
--Whether previous no-show behaviour is associated with future attendance.
--Whether reminders and reminder channels may influence appointment outcomes.
--Whether factors such as distance and waiting time may be associated with attendance patterns.
+- Whether previous no-show behaviour is associated with future attendance.
+- Whether reminders and reminder channels may influence appointment outcomes.
+- Whether factors such as distance and waiting time may be associated with attendance patterns.
 
 The goal is not to diagnose patients or make clinical decisions, but to analyse appointment and operational data to support better administrative decision-making.
