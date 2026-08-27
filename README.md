@@ -9,9 +9,9 @@ Missed appointments can create operational challenges for healthcare providers b
 
 HealthConnect therefore needs to understand:
 
--How frequently appointments are attended, missed or cancelled. 
--Which patient and appointment characteristics may be associated with no-shows.
--Whether booking lead time is related to attendance.
+- How frequently appointments are attended, missed or cancelled. 
+- Which patient and appointment characteristics may be associated with no-shows.
+- Whether booking lead time is related to attendance.
 -Whether previous no-show behaviour is associated with future attendance.
 -Whether reminders and reminder channels may influence appointment outcomes.
 -Whether factors such as distance and waiting time may be associated with attendance patterns.
