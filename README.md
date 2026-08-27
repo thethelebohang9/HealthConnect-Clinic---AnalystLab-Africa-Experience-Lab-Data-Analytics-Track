@@ -47,3 +47,30 @@ The HealthConnect appointment dataset contains:
 - Reminder information
 - Operational information
 - Final appointment outcomes
+
+  ## HealthConnect Knowledge Base
+
+The analysis is supported by the approved HealthConnect Clinic Knowledge Base, which provides the operational context for interpreting the dataset.
+
+The Knowledge Base establishes that HealthConnect:
+
+- Has two fictional clinic locations.
+- Provides general, follow-up, specialist and diagnostic services.
+- Uses appointment-based care.
+- Allows appointments to be rescheduled or cancelled.
+- Encourages patients to arrive at least 15 minutes before appointments.
+- Encourages patients who cannot attend to contact the clinic as early as possible.
+- May use appointment reminders.
+- Directs medical or clinical questions to qualified healthcare professionals.
+- Important Analytical Boundary
+
+The dataset and analysis are focused on administrative and operational appointment behaviour.
+
+## The project will not:
+
+- Diagnose medical conditions.
+- Predict or interpret individual patient health conditions.
+- Recommend treatment or medication.
+- Make clinical decisions.
+- Assume that demographic characteristics cause a patient's behaviour.
+- Invent clinic policies, prices or appointment availability.
