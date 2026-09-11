@@ -160,3 +160,9 @@ Version Control: Git & GitHub
 - Week 5: Completed
 - Week 6: Completed
 - Week 7: Predictive analytics, model testing, feature evaluation and validation
+
+### Current Dashboard ScreenShots
+<img width="1782" height="893" alt="Screenshot 2026-09-11 131841" src="https://github.com/user-attachments/assets/c7b30293-09fe-497f-a041-bcb10507ff50" />
+<img width="1920" height="1080" alt="Screenshot 2026-09-11 131909" src="https://github.com/user-attachments/assets/10c3a578-2776-4917-9f07-db9e3a37e454" />
+
+
