@@ -1,11 +1,11 @@
-# HealthConnect-Clinic---AnalystLab-Africa-Experience-Lab-Data-Analytics-Track
-HealthConnect Clinic is a fictional outpatient healthcare provider offering appointment-based services to adult patients. The clinic aims to provide accessible, organised and patient-centred care.
-As part of the AnalystLab Africa Experience Lab, this project focuses on understanding appointment attendance and identifying patterns associated with no-shows and cancellations.
-The Data Analytics track will use the available appointment data to generate evidence-based insights that can help HealthConnect improve appointment attendance, operational efficiency and patient experience.
+# HealthConnect Clinic — Appointment No-Show Analysis
+## Project Overview
+HealthConnect Clinic is a fictional outpatient healthcare analytics project focused on understanding appointment attendance and no-show behaviour.
+The project uses Python, Pandas, SciPy, and Power BI to perform exploratory analysis, statistical validation, risk segmentation, and decision-support reporting.
 
 ## Business Problem
 
-Missed appointments can create operational challenges for healthcare providers by reducing the effective use of appointment capacity and potentially affecting patient access to care.
+The goal is to identify the factors associated with appointment no-shows and translate those findings into practical recommendations for improving appointment attendance and clinic capacity utilisation.
 
 HealthConnect therefore needs to understand:
 
@@ -17,22 +17,6 @@ HealthConnect therefore needs to understand:
 - Whether factors such as distance and waiting time may be associated with attendance patterns.
 
 The goal is not to diagnose patients or make clinical decisions, but to analyse appointment and operational data to support better administrative decision-making.
-
-
-## Project Objectives
-
-The Week 4 project objectives were to:
-
-- Understand the HealthConnect business problem.
-- Understand the available appointment dataset.
-- Review the dataset structure and Data Dictionary.
-- Identify variables relevant to appointment attendance and no-shows.
-- Define meaningful business questions.
-- Identify potential business KPIs.
-- Establish the initial analytical approach.
-- Identify project limitations, risks and dependencies.
-- Establish a foundation for the detailed analysis to follow.
-
 
 ## Dataset Overview
 
@@ -75,7 +59,8 @@ The dataset and analysis are focused on administrative and operational appointme
 - Assume that demographic characteristics cause a patient's behaviour.
 - Invent clinic policies, prices or appointment availability.
 
- ## Business Questions
+
+## Business Questions
 
 The initial analysis will investigate the following business questions:
 
@@ -91,3 +76,87 @@ The initial analysis will investigate the following business questions:
 - Is estimated waiting time associated with appointment outcomes?
 
 These questions will guide the detailed analysis in the next stage of the project.
+
+
+
+## Project Objectives
+
+## Week 4 project objectives were to:
+
+- Understand the HealthConnect business problem.
+- Understand the available appointment dataset.
+- Review the dataset structure and Data Dictionary.
+- Identify variables relevant to appointment attendance and no-shows.
+- Define meaningful business questions.
+- Identify potential business KPIs.
+- Establish the initial analytical approach.
+- Identify project limitations, risks and dependencies.
+- Establish a foundation for the detailed analysis to follow.
+
+
+## Week 5 — Exploratory Data Analysis
+Analysed 5,000 appointment records and investigated no-show behaviour across:
+-	Appointment type
+-	Age and gender
+-	Appointment day and time
+-	Booking lead time
+-	Previous appointments
+-	Previous no-shows
+-	Reminder status and channel
+-	Distance to clinic
+-	Waiting time
+##### The overall no-show rate was 48.46%.
+##### The strongest Week 5 finding was booking lead time:
+-	0–14 days: 30.60%
+-	15–29 days: 43.04%
+-	30–44 days: 52.82%
+-	45–60 days: 67.23%
+A Power BI Executive Overview dashboard was developed to communicate these findings.
+
+
+## Week 6 — Advanced Analytics & Decision Support
+Week 6 focused on validating the Week 5 findings and identifying higher-risk appointment segments.
+##### Statistical testing confirmed significant associations between no-show behaviour and:
+-	Booking lead time: χ² = 359.38, p < 0.001
+-	Previous appointment history: χ² = 11.84, p = 0.0079
+-	Distance: χ² = 16.21, p = 0.0010
+-	Reminder status: χ² = 6.30, p = 0.0120
+##### Previous no-show behaviour was identified as an important behavioural indicator:
+-	0 previous no-shows: 43.51%
+-	1: 53.49%
+-	2: 59.36%
+-	3: 67.95%
+##### The highest-risk segment identified was appointments booked 45–60 days in advance for patients living 15+ km from the clinic:
+73.00% no-show rate | 237 appointments | 173 no-shows
+This was 24.54 percentage points above the overall clinic rate.
+
+## Key Findings
+#### The current risk hierarchy is:
+Booking lead time → Previous no-show behaviour → Distance → Reminder status → Previous appointment history
+The analysis identifies associations, not causation.
+#### Power BI
+Two dashboard pages have been developed:
+##### Executive Overview
+-	Overall appointment KPIs
+-	No-show rate analysis
+-	Patient and appointment segmentation
+##### Advanced Decision Support
+-	45–60 day no-show rate: 67.23%
+-	High-risk no-show rate: 73.00%
+-	High-risk difference: +24.54 pp
+-	High-risk appointments: 237
+
+  
+### Data Science Handover
+A binary no_show_target was created for future predictive modelling.
+#### Potential predictors include:
+booking_lead_days, previous_appointments, previous_no_shows, distance_to_clinic_km, reminder_sent, reminder_channel_model, appointment_type, age_group, appointment_time, and appointment_day.
+appointment_outcome is excluded from modelling to prevent target leakage.
+#### Tools
+Python: Pandas, NumPy, SciPy, Matplotlib, Jupyter
+Power BI: Power Query, DAX, interactive dashboards
+Version Control: Git & GitHub
+#### Project Status
+- Week 5: Completed
+- Week 6: Completed
+- Week 7: Predictive analytics, model testing, feature evaluation and validation
